@@ -1,12 +1,12 @@
 Summary:	Rage - media center based on EFL
 Summary(pl.UTF-8):	Rage - centrum multimedialne oparte na EFL
 Name:		rage
-Version:	0.2.0.002
+Version:	0.3.0.042
 Release:	1
 License:	BSD
 Group:		X11/Applications/Multimedia
-Source0:	http://enlightenment.freedesktop.org/files/%{name}-%{version}.tar.gz
-# Source0-md5:	2b2f0f85e5a8bbe4dded9c561a59a9a8
+Source0:	http://download.enlightenment.org/snapshots/2008-01-25/%{name}-%{version}.tar.bz2
+# Source0-md5:	123bab800a7be6e0c7c8dc6beb8c6368
 URL:		http://enlightenment.org/
 BuildRequires:	autoconf
 BuildRequires:	automake >= 1.4
