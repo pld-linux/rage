@@ -8,8 +8,8 @@ Group:		X11/Applications/Multimedia
 Source0:	http://download.enlightenment.org/snapshots/2008-01-25/%{name}-%{version}.tar.bz2
 # Source0-md5:	123bab800a7be6e0c7c8dc6beb8c6368
 URL:		http://enlightenment.org/
-BuildRequires:	autoconf
-BuildRequires:	automake >= 1.4
+BuildRequires:	autoconf >= 2.52
+BuildRequires:	automake >= 1.6
 # ecore-con ecore-evas ecore-file ecore-ipc ecore-job ecore-txt
 BuildRequires:	ecore-devel
 BuildRequires:	edje
