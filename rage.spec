@@ -7,7 +7,7 @@ License:	BSD
 Group:		X11/Applications/Multimedia
 Source0:	https://download.enlightenment.org/rel/apps/rage/%{name}-%{version}.tar.xz
 # Source0-md5:	e2fed81e9e3ef604cdb685d6822348e5
-URL:		http://enlightenment.org/
+URL:		https://www.enlightenment.org/about-rage
 BuildRequires:	efl-devel
 BuildRequires:	meson
 BuildRequires:	ninja >= 1.5
