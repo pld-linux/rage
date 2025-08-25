@@ -9,7 +9,10 @@ Source0:	https://download.enlightenment.org/rel/apps/rage/%{name}-%{version}.tar
 # Source0-md5:	e2fed81e9e3ef604cdb685d6822348e5
 URL:		http://enlightenment.org/
 BuildRequires:	efl-devel
+BuildRequires:	meson
+BuildRequires:	ninja >= 1.5
 BuildRequires:	pkgconfig
+BuildRequires:	rpmbuild(macros) >= 2.042
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
